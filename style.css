@@ -132,14 +132,31 @@ header h1{
 
 }
 
-/* .textbox {
+.textbox1 {
     background-color: rgb(28, 28, 28); 
     position: absolute; 
     margin-top: 200px;
     width: 175px;
     border: 2px solid var(--light-grey);
-    text-align: center;
-} */
+}
+
+.textbox2 {
+    background-color: rgb(28, 28, 28); 
+    position: absolute; 
+    margin-top: 500px;
+    width: 175px;
+    border: 2px solid var(--light-grey);
+}
+
+.textbox3 {
+    background-color: rgb(28, 28, 28); 
+    position: absolute; 
+    margin-top: 500px;
+    margin-left: 835px;
+    width: 175px;
+    border: 2px solid var(--light-grey);
+}
+
 
 .image-border{
    border: 3px solid black; 
@@ -193,7 +210,10 @@ header h1{
     .work-grid{
         margin-top: 190px;
     }
-        
+    
+    .textbox3{
+        margin-left: 625px;
+    }
   }
 
   @media screen and (max-width: 1000px) {
@@ -205,7 +225,6 @@ header h1{
         width: 600px;
     }
 
-  }
 
   @media screen and (max-width: 750px) {
     .about-me-main {
@@ -232,28 +251,37 @@ header h1{
 
   @media screen and (max-width: 500px) {
    .main-content {
-    width: 200px;
+      width: 200px;
    }
    
    .about-me{
-    margin-top: 20px;
-    height: 300px;
+      margin-top: 20px;
+      height: 300px;
     
     
    }
     .about-me-main {
-        width: 250px;
-        height:20px;
+      width: 250px;
+      height:20px;
    }
 
-   .work-grid {
-    margin-top: 380px;
+    .work-grid {
+     margin-top: 380px;
 }
 
-.work {
-    margin-top: 100px;
+    .work {
+      margin-top: 100px;
 }
-  }
 
+    .textbox1 {
+      width: 65px;
+}
 
-  
+    .textbox2 {
+      width: 65px;
+}
+
+    .textbox3 {
+      width: 65px;
+}
+}}
