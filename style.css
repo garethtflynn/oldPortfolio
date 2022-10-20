@@ -152,8 +152,8 @@ header h1{
     background-color: rgb(28, 28, 28); 
     position: absolute; 
     margin-top: 500px;
-    margin-left: 835px;
-    width: 175px;
+    margin-left: 800px;
+    width: 150px;
     border: 2px solid var(--light-grey);
 }
 
